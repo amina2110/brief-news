@@ -679,6 +679,8 @@ input:hover,
   iframe{
       width: 250px;
       height: 200px;
+      margin-left: auto;
+      margin-right: auto;
   }
   .flip-card{
     width:250px;
