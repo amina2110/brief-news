@@ -568,6 +568,16 @@ input:hover,
       background-color: white;
       margin: 0 0 0 0;
     }
+    .footer-pg{
+      font-size: 12px;
+    }
+    .footer-p{
+      font-size: 15px;
+    }
+    .jumbotron.jumbotron-fluid.pt-4.bg-dark.footer-pc{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }
 
 
