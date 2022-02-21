@@ -373,6 +373,10 @@ iframe{
   width: 200px;
   height: 400px;
 }
+.flip-card.d-flex.justify-content-center{
+    margin: 5px auto;
+    width: 330px;
+}
 footer{
   margin: 70px 0 0 0;
   padding: 70px 70px 10px 190px;
