@@ -564,6 +564,10 @@ input:hover,
     .form-inline.ml-auto{
       width: 500px;
     }
+    .white{
+      background-color: white;
+      margin: 0 0 0 0;
+    }
 }
 
 
