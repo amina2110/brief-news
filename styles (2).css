@@ -120,7 +120,7 @@ hr{
 .up{
     height: 70vh;
     width: 100%;
-    background: url("https://media.cntraveler.com/photos/5ca50d2b19fc3838ff1a31b0/master/w_4000,h_2667,c_limit/Hong-Kong-China_GettyImages-900611166.jpg");
+    background: url("https://www.newschainonline.com/bsp-static/image/2022/01/04/12/854576cec4b1317167a10d817116e686Y29udGVudHNlYXJjaGFwaSwxNjQxMzgyOTUw-2.64582207.jpg?crop=61:45,smart&auto=webp&border=768");
     /* https://thumbs.dreamstime.com/z/person-reading-news-laptop-screen-newspaper-press-network-concept-horizontal-vector-illustration-216400904.jpg */
     background-size: cover;
     background-attachment: fixed;
@@ -158,9 +158,9 @@ hr{
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  -ms-transform: scale(1.75); /* IE 9 */
+  -webkit-transform: scale(1.75); /* Safari 3-8 */
+  transform: scale(1.75);
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -170,9 +170,12 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
+  width:
+
+
+
 }
 
 /* Next & previous buttons */
@@ -343,12 +346,9 @@ a{
   color: white;
   transform: rotateY(180deg);
 }
-.links{
-    padding: 0 0;
-    margin-bottom: 35px;
-}
-iframe{
-    margin: 10px;
+
+.iframe{
+
 }
 .container-fluid.text-center.hideme{
   padding-left: 0px;
@@ -364,7 +364,7 @@ iframe{
 
 .ad{
   opacity: 0.9;
-  background-image: url("");
+  background-image: url("ASU.jpg");
 }
 .advertisement{
   width: 200px;
@@ -550,10 +550,7 @@ input:hover,
       margin-bottom: 0;
       padding-bottom: 0;
     }
-    iframe{
-        width: 300px;
-        height: 200px;
-    }
+
     .flip-card{
       width:300px;
       height: 400px;
@@ -582,10 +579,7 @@ input:hover,
       margin-bottom: 0;
       padding-bottom: 0;
     }
-    iframe{
-        width: 300px;
-        height: 300px;
-    }
+
     .flip-card{
       width:400px;
       height: 400px;
@@ -614,10 +608,7 @@ input:hover,
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  iframe{
-      width: 500px;
-      height: 300px;
-  }
+
   .flip-card{
     width:400px;
     height: 500px;
@@ -649,10 +640,7 @@ input:hover,
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  iframe{
-      width: 300px;
-      height: 300px;
-  }
+
   .flip-card{
     width:300px;
     height: 500px;
@@ -686,6 +674,7 @@ input:hover,
 #myUpBtn:hover {
   background-color: white; /* Add a dark-grey background on hover */
 }
+
 nav {
   border-bottom: 2px solid cornflowerblue;
 }

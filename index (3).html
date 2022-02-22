@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Brief news</title>
+  <title>Document</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -46,13 +46,13 @@
                 <a class="nav-link active" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">CULTURE</a>
+                <a class="nav-link" href="index.html">COUNTRY</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">SPORT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">WEATHER</a>
+                <a class="nav-link" href="index (3).html">WEATHER</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">COUNTRY</a>
@@ -64,9 +64,10 @@
 
 
         <div class="container-fluid upper">
+
           <div class="row ">
             <button type="button" class="btn btn-primary " name="button">NEWS</button>
-            <h5 class="topDate">FEBRUARY 22, 2022 | NEWS ABOUT WEATHER</h5>
+            <h5 class="topDate">JANUARY 5, 2022 | NEWS ABOUT WEATHER</h5>
             <form class="form-inline ml-auto">
               <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
               <button class="btn btn-outline-primary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -77,25 +78,51 @@
 
 
         <div class="container-fluid" style="margin-top:40px">
+
           <div class="row">
             <div class="col-sm-8">
-              <div class="card">
-                <img class="card-img-top" src="https://cdn.cnn.com/cnnnext/dam/assets/150225073843-08-popular-parks-0225-large-169.jpg" alt="Card image">
-                <div class="card-body">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <h5 class="card-title primary">WORLD</h5>
-                      <h5 class="card-title">DECEMBER 23, 2021</h5>
-                    </div>
-                  </div>
-                  <h4 class="card-title">The shocking numbers behind the Lake Mead drought crisis</h4>
-                  <p class="card-text">(CNN)The United States' largest reservoir is draining rapidly. Plagued by extreme, climate change-fueled drought and increasing demand for water, Lake Mead on Wednesday registered its lowest level on record
-                    since the reservoir was filled in the 1930s.
-                  </p>
-                  <a href="https://edition.cnn.com/2021/06/17/us/lake-mead-drought-water-shortage-climate/index.html"
-                    class="btn btn-primary stretched-link">READ MORE</a>
-                </div>
+
+            <div class="slideshow-container">
+
+              <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/160916153153-arctic-ice-tease-exlarge-tease.jpg" style="width:100%">
+                <div class="text"><a
+                    href="https://edition.cnn.com/2019/09/04/us/climate-change-science-101-basics/index.html">
+                    <h6>The science behind the climate crisis</h6>
+                  </a></div>
               </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/130621115503-burger-grill-horizontal-large-gallery.jpg" style="width:100%">
+                <div class="text"><a href="https://edition.cnn.com/2017/05/15/world/climate-damaging-foods/index.html">
+                    <h6>These are the most climate-damaging foods</h6>
+                  </a></div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/220215150203-03-sea-level-flood-climate-noaa-report-file-medium-plus-169.jpg" style="width:100%">
+                <div class="text"><a
+                    href="https://edition.cnn.com/2022/02/15/us/us-sea-level-rise-report-noaa-climate/index.html">
+                    <h6>US sea levels will rise rapidly in the next 30 years, new report shows</h6>
+                  </a></div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              </div>
+              <br>
+
+              <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+
+
 
               <hr>
 
@@ -125,9 +152,6 @@
                     </a>
                   </div>
                 </div>
-              </div>
-              <hr>
-              <div class="card-deck">
                 <div class="card">
                   <img class="card-img-top zoom" src="https://cdn.cnn.com/cnnnext/dam/assets/220214152003-04-california-drought-la-wastewater-recycling-climate-file-medium-plus-169.jpg" alt="Card image">
                   <div class="card-body">
@@ -137,6 +161,9 @@
                     </a>
                   </div>
                 </div>
+              </div>
+              <hr>
+              <div class="card-deck">
                 <div class="card">
                   <img class="card-img-top zoom" src="https://cdn.cnn.com/cnnnext/dam/assets/220210122244-01-nord-stream-2-file-medium-plus-169.jpg" alt="Card image">
                   <div class="card-body">
@@ -154,136 +181,56 @@
                     </a>
                   </div>
                 </div>
+                <div class="card">
+                  <img class="card-img-top zoom" src="https://cdn.cnn.com/cnnnext/dam/assets/220127215546-great-barrier-reef-australia-file-restricted-medium-plus-169.jpg" alt="Card image">
+                  <div class="card-body">
+                    <a
+                      href="https://edition.cnn.com/2022/01/27/australia/australia-great-barrier-reef-intl-hnk/index.html">
+                      <h5 class="card-title">Australia pledges $700 million to protect Great Barrier Reef amid climate change threat</h5>
+                    </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top zoom" src="https://cdn.cnn.com/cnnnext/dam/assets/220126101857-colombia-coffee-farm-120121-file-restricted-medium-plus-169.jpg" alt="Card image">
+                  <div class="card-body">
+                    <a
+                      href="https://edition.cnn.com/2022/01/26/business/coffee-climate-change/index.html">
+                      <h5 class="card-title">Climate change is coming for our coffee</h5>
+                    </a>
+                  </div>
+                </div>
               </div>
 
               <button onclick="topFunction()" id="myUpBtn" title="Go to top"><i class="fas fa-arrow-up btn btn-primary"></i></button>
 
-
-
-
-
-              <div id="container">
-
-                <div>
-                  <header class="container">
-                    <h1>WEATHER FOR 3 DAYS</h1>
-                  </header>
-                  <nav class="container">
-                    <div class="row align-items-center py-2">
-                      <div class="input-group col-sm">
-                        <span class="input-group-text" id="basic-addon1">Lat</span>
-                        <input type="text" class="form-control" inputmode="numeric" id="latitude" placeholder="latitude" aria-label="latitude" aria-describedby="basic-addon1" value="51.166672" />
-                      </div>
-                      <div class="input-group col-sm">
-                        <span class="input-group-text" id="basic-addon1">Lon</span>
-                        <input type="text" class="form-control" inputmode="numeric" id="longitude" placeholder="longitude" aria-label="longitude" aria-describedby="basic-addon1" value="71.5" />
-                      </div>
-                    </div>
-                    <div class="row align-items-center py-2">
-                      <div class="col-auto me-auto">
-                        <button id="btnGet" type="button" class="btn btn-primary mb-3">
-                          Get Weather
-                        </button>
-                        <button id="btnCurrent" type="button" class="btn btn-primary mb-3">
-                          Use Current Location
-                        </button>
-                      </div>
-                    </div>
-                  </nav>
-                  <main class="container">
-                    <h2>Weather</h2>
-
-                    <div class="weather row gx-2">
-                      <div class="col">
-                        <div class="card" style="width: 30vw">
-                          <h5 class="card-title p-2">Date</h5>
-                          <img src="http://openweathermap.org/img/wn/10d@4x.png" class="card-img-top" alt="Weather description" />
-                          <div class="card-body">
-                            <h3 class="card-title">Weather Label</h3>
-                            <p class="card-text">High Temp Low Temp</p>
-                            <p class="card-text">HighFeels like</p>
-                            <p class="card-text">Pressure</p>
-                            <p class="card-text">Humidty</p>
-                            <p class="card-text">UV Index</p>
-                            <p class="card-text">Precipitation</p>
-                            <p class="card-text">Dew Point</p>
-                            <p class="card-text">Wind speed and direction</p>
-                            <p class="card-text">Sunrise</p>
-                            <p class="card-text">Sunset</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </main>
-
-                </div>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-                <script src="index.js" defer></script>
-
-              </div>
-
-
-
-
-
-
-
-
-
-
               <hr class="d-sm-none">
             </div>
 
+<div class="col-sm-4">
+  <div class="card">
+    <div class="container-fluid text-center hideme" >
+          <iframe  src="https://www.youtube.com/embed/jyccV5N7XIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+              <div class="card">
+                <img class="card-img-top" src="https://cdn.cnn.com/cnnnext/dam/assets/150225073843-08-popular-parks-0225-large-169.jpg" alt="Card image">
+                <div class="card-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <h5 class="card-title primary">WORLD</h5>
+                      <h5 class="card-title">MARCH 5, 2021</h5>
+                    </div>
+                  </div>
+                  <h4 class="card-title">The shocking numbers behind the Lake Mead drought crisis</h4>
+                  <p class="card-text">(CNN)The United States' largest reservoir is draining rapidly. Plagued by extreme, climate change-fueled drought and increasing demand for water, Lake Mead on Wednesday registered its lowest level on record
+                    since the reservoir was filled in the 1930s.
+                  </p>
+                  <a href="https://edition.cnn.com/2021/06/17/us/lake-mead-drought-water-shortage-climate/index.html"
+                    class="btn btn-primary stretched-link">READ MORE</a>
 
-
-
-
-
-
-
-
-
-            <div class="col-sm-4">
-
-              <div class="slideshow-container">
-
-                <div class="mySlides">
-                  <div class="numbertext">1 / 3</div>
-                  <img src="https://cdn.cnn.com/cnnnext/dam/assets/160916153153-arctic-ice-tease-exlarge-tease.jpg" style="width:100%">
-                  <div class="text"><a
-                      href="https://edition.cnn.com/2019/09/04/us/climate-change-science-101-basics/index.html">
-                      <h6>The science behind the climate crisis</h6>
-                    </a></div>
+                </div>
                 </div>
 
-                <div class="mySlides">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="https://cdn.cnn.com/cnnnext/dam/assets/130621115503-burger-grill-horizontal-large-gallery.jpg" style="width:100%">
-                  <div class="text"><a href="https://edition.cnn.com/2017/05/15/world/climate-damaging-foods/index.html">
-                      <h6>These are the most climate-damaging foods</h6>
-                    </a></div>
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="https://cdn.cnn.com/cnnnext/dam/assets/220215150203-03-sea-level-flood-climate-noaa-report-file-medium-plus-169.jpg" style="width:100%">
-                  <div class="text"><a
-                      href="https://edition.cnn.com/2022/02/15/us/us-sea-level-rise-report-noaa-climate/index.html">
-                      <h6>US sea levels will rise rapidly in the next 30 years, new report shows</h6>
-                    </a></div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-              </div>
-              <br>
-
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-              </div>
               <button id="myBtn" class="btn sign-up btn-block btn-primary active"><span>Sign up for Weather newsletter </span></button>
 
 
@@ -327,23 +274,66 @@
 
               </div>
 
-
-
-              <div class="links">
-                  <div class="container-fluid text-center hideme" >
-                        <iframe  src="https://www.youtube.com/embed/jyccV5N7XIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="flip-card d-flex justify-content-center">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front ad">
-                  </div>
-                  <div class="flip-card-back ">
-                    <h5 class="centered">ADVERTISEMENT</h5>
-                  </div>
-                </div>
-              </div>
             </div>
+          </div>
+          <div id="container">
+
+            <div>
+              <header class="weathertracker">
+                <h1>WEATHER FOR 3 DAYS</h1>
+              </header>
+              <nav class="container">
+                <div class="row align-items-center py-2">
+                  <div class="input-group col-sm">
+                    <span class="input-group-text" id="basic-addon1">Lat</span>
+                    <input type="text" class="form-control" inputmode="numeric" id="latitude" placeholder="latitude" aria-label="latitude" aria-describedby="basic-addon1" value="51.166672" />
+                  </div>
+                  <div class="input-group col-sm">
+                    <span class="input-group-text" id="basic-addon1">Lon</span>
+                    <input type="text" class="form-control" inputmode="numeric" id="longitude" placeholder="longitude" aria-label="longitude" aria-describedby="basic-addon1" value="71.5" />
+                  </div>
+                </div>
+                <div class="row align-items-center py-2">
+                  <div class="col-auto me-auto">
+                    <button id="btnGet" type="button" class="btn btn-primary mb-3">
+                      Get Weather
+                    </button>
+                    <button id="btnCurrent" type="button" class="btn btn-primary mb-3">
+                      Use Current Location
+                    </button>
+                  </div>
+                </div>
+              </nav>
+              <main class="weathertracker">
+                <h2>Weather</h2>
+
+                <div class="weather row gx-2">
+                  <div class="col">
+                    <div class="card" style="width: 30vw">
+                      <h5 class="card-title p-2">Date</h5>
+                      <img src="http://openweathermap.org/img/wn/10d@4x.png" class="card-img-top" alt="Weather description" />
+                      <div class="card-body">
+                        <h3 class="card-title">Weather Label</h3>
+                        <p class="card-text">High Temp Low Temp</p>
+                        <p class="card-text">HighFeels like</p>
+                        <p class="card-text">Pressure</p>
+                        <p class="card-text">Humidty</p>
+                        <p class="card-text">UV Index</p>
+                        <p class="card-text">Precipitation</p>
+                        <p class="card-text">Dew Point</p>
+                        <p class="card-text">Wind speed and direction</p>
+                        <p class="card-text">Sunrise</p>
+                        <p class="card-text">Sunset</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </main>
+
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <script src="index.js" defer></script>
+
           </div>
         </div>
 
