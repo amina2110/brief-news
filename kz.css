@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+  margin: 0 0 0 0;
+  background-color: #EFEFEF;
+}
+.white{
+  background-color: white;
+  margin: 0 60px 0 60px;
+}
+h1{
+  margin-top: 0;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+h6{
+  margin-top: 0;
+  padding: 0 0 20px 15px;
+  font-family: 'Assistant', sans-serif;
+}
+h5{
+  margin-right: 0;
+  font-family: 'Assistant', sans-serif;
+}
+h4{
+  font-family: 'Assistant', sans-serif;
+}
+h2{
+  font-family: 'Assistant', sans-serif;
+}
+.primary{
+  margin-left: 0;
+  margin-right: 8px;
+  margin-top: 0;
+  color: #1974D2;
+}
+.date{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.btn-primary{
+  margin-left: 5px;;
+  margin-right: 5px;
+}
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #000000;
+  }
+}
+.container{
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+.margin{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.upper{
+  background-color:#EFEFEF;
+  margin-right: 15px;
+  padding-top: 6px;
+  padding-right: 18px;
+  padding-bottom: 5px;
+}
+.topDate{
+  margin-top: 10px;
+}
+.up{
+    height: 70vh;
+    width: 100%;
+    background: url("https://www.aviontourism.com/images/1920-900-fix/8265795c-7697-4f06-bff8-8f9f70ca4197");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.brand{
+  background: #EFEFEF;
+  opacity: .9;
+  position: static;
+  top:400px;
+  padding-left: 5px;
+  filter: alpha(Opacity=10);
+  margin-right: 15px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  border: 10px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-size: 30px;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.title{
+  opacity:1;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.container:hover .overlay{
+  opacity: 80%;
+}
+.container:hover .text{
+  color:white;
+}
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card {
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+}
+.col{
+  margin: 5px 0;
+}
+.row img{
+  padding: 7px;
+}
